@@ -176,69 +176,6 @@ a:hover {
 	}
 }
 
-footer.page-footer {
-	font-family: 'Raleway', sans-serif;
-	background-color: #f7f7f7;
-	color: #3c3c3c;
-	padding: 20px 40px;
-}
-
-.footer-menu,
-.footer-icon-list {
-	padding-bottom: 20px;
-}
-
-.page-footer .footer-heading {
-	font-size: 18px;
-	margin-bottom: 10px;
-}
-
-a.footer-menu-link,
-a.credit-link,
-a.footer-icon {
-	font-family: 'Raleway', sans-serif;
-	color: #3c3c3c;
-	text-decoration: none;
-}
-
-a.footer-menu-link {
-	font-size: 14px;
-}
-
-a.footer-menu-link:hover,
-a.credit-link:hover,
-a.footer-icon:hover {
-	color: #8d7c6e;
-	fill: #8d7c6e;
-}
-
-a.footer-menu-link.active {
-	color: #8d7c6e;
-	fill: #8d7c6e;
-}
-
-.footer-menu ul,
-.footer-icon-list ul {
-	list-style: none;
-}
-
-.footer-menu ul li {
-	margin-bottom: 2px;
-}
-
-.footer-icon-list ul li {
-	padding-right: 10px;
-}
-
-.footer-icon svg {
-	height: 18px;
-	width: 18px;
-}
-
-.footer-credits {
-	font-size: smaller;
-	padding: 20px 0px;
-}
 .vacancy-card,
 .vacancy-panel {
 	font-family: 'Raleway', sans-serif;
@@ -886,4 +823,41 @@ a.team-btn-white:hover {
 
 .panel-body:after {
 	clear: both;
+}
+#footer {
+  background-color: #daedf4;
+}
+
+#footer a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+#footer div.small p{
+	text-align: center!important;
+}
+#footer ul.social li {
+  padding: 3px 0;
+}
+
+#footer ul.social li a i {
+  margin-right: 5px;
+  font-size: 25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+#footer ul.social li:hover a i {
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+#footer ul.social li a {
+  color: #000000;
+}
+
+#footer ul.social li a:hover {
+  color: #bbbbbb;
 }
