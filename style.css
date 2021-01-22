@@ -139,6 +139,9 @@ a:hover {
 	margin-right: 32px;
 }
 
+.page-description p{
+	text-align: justify; !important
+}
 .nex_sm_btn {
 	min-width: 75px;
 	padding: 10px 15px;
